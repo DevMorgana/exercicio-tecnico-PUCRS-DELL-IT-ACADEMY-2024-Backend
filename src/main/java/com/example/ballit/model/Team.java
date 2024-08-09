@@ -1,6 +1,5 @@
 package com.example.ballit.model;
 
-import lombok.AllArgsConstructor;
 import lombok.Data;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
@@ -17,5 +16,13 @@ public class Team {
 
     public CharSequence getName() {
         return name;
+    }
+
+    public String getWarCry() {
+        return warCry;
+    }
+
+    public String getId() {
+        return id;
     }
 }

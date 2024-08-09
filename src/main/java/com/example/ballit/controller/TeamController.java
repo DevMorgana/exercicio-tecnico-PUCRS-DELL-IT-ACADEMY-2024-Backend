@@ -23,4 +23,9 @@ public class TeamController {
     public List<Team> findAllTeams() {
         return service.getAllTeams();
     }
+
+    @PostMapping("/start-championship")
+    public String startChampionship() {
+        return service.startChampionship();
+    }
 }
