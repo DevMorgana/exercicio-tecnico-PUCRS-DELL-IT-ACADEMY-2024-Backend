@@ -19,7 +19,7 @@ MongoDB (Instalado e em execução na porta padrão 27017)
 Passo a Passo para Execução
 1. Clone o Repositório
 Clone o repositório do projeto para sua máquina local:
-git clone https://github.com/seu-usuario/ballit-championship.git
+git clone https://github.com/seu-usuario/ballit-championship.git](https://github.com/DevMorgana/exercicio-tecnico-PUCRS-DELL-IT-ACADEMY-2024-Backend.git
 
 2. Configure o MongoDB
 Certifique-se de que o MongoDB esteja em execução em sua máquina. Por padrão, o projeto está configurado para se conectar ao MongoDB na localhost usando a porta 27017. Caso o MongoDB esteja em outra porta ou endereço, você pode alterar a configuração no arquivo application.properties ou application.yml localizado em src/main/resources:
